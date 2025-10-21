@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test -f /Users/rasel/projects/explore-cloudflare/nextjs-cloudflare-voice-ai/.env.local)",
+      "Bash(cp /Users/rasel/projects/explore-cloudflare/nextjs-cloudflare-voice-ai/.env.example /Users/rasel/projects/explore-cloudflare/nextjs-cloudflare-voice-ai/.env.local)",
+      "Bash(pnpm install)",
+      "Bash(pnpm dev)",
+      "Bash(pnpm list zod)",
+      "Bash(cat package.json)",
+      "Bash(pnpm --filter worker dev)",
+      "Bash(wrangler --version)",
+      "Bash(cat /Users/rasel/projects/explore-cloudflare/cloudeflare3/node_modules/.pnpm/hono@4.10.1/node_modules/hono/package.json)",
+      "Bash(cat /Users/rasel/projects/explore-cloudflare/cloudeflare3/node_modules/.pnpm/@cloudflare+workers-types@4.20251011.0/node_modules/@cloudflare/workers-types/package.json)",
+      "Bash(mkdir -p src/app/{components,lib} worker/src public)",
+      "Bash(npm install)",
+      "Bash(rm -f pnpm-lock.yaml)",
+      "Bash(npm install --legacy-peer-deps)",
+      "Bash(rm -rf node_modules pnpm-lock.yaml package-lock.json)",
+      "Bash(rm -rf node_modules package-lock.json)",
+      "Bash(rm -rf node_modules)",
+      "Bash(rm -f package-lock.json pnpm-lock.yaml)",
+      "Bash(npx wrangler types)",
+      "Bash(npm run worker:dev)",
+      "Bash(npm run dev)",
+      "Bash(cat node_modules/workers-ai-provider/package.json)",
+      "Bash(npm install -D @tailwindcss/postcss)",
+      "Bash(npm install -D @tailwindcss/postcss --legacy-peer-deps)",
+      "Bash(pnpm run build)",
+      "Bash(npx --version)",
+      "Bash(npx @opennextjs/cloudflare@latest)",
+      "Bash(npx @opennextjs/cloudflare@latest build)",
+      "Bash(tee build.log)",
+      "Bash(npx @opennextjs/cloudflare@latest build --skipBuild)",
+      "Bash(curl -v http://localhost:4000/)",
+      "Bash(npm install workers-ai-provider)",
+      "Bash(test -f /Users/rasel/projects/explore-cloudflare/nextjs/.env.example)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
